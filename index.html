@@ -56,9 +56,41 @@
 
       <section class="card" id="git-section">
         <h2>Git</h2>
+        <h3>Terms</h3>
         <ul>
-          <li>Enter Git notes here</li>
+          <li>Git- Version control system that lets you manage and keep track of each version of your project. Accessed through the command line. </li>
+          <li>GitHub- Cloud based hosting service used for version control, debugging, and collaboration between developers remotely. </li>
+          <li>Repository (repo) - a folder in which all files and their version histories are stored.</li>
+          <li>Branch - a workspace in which you can make changes that won't affect the live site.</li>
+          <li>Markdown (.md) - a way to write in github that converts plain text to github code. Sites such as Atom and Sublime Text are examples of free resources for developers using markdown</li>
+          <li>Commit Changes - a saved record of a change made to a file within the repo.</li>
+          <li>Pull Request (PR) - the way to ask for changes made to a branch to be merged into another branch that also allows for multiple users to see, discuss and review work being done.</li>
+          <li>Merge - after a pull request is approved, the commit will be pulled in (or merged)from one branch to another and then, deployed on the live site.</li>
+          <li>Issues - How work is tracked when using git. Issues allow users to report new tasks and content fixes, as well as allow users to track progress on a project board from beginning to end of a specific project.</li>
+          <li>Federalist - a platform that securely deploys a website from github repository in minutes and lets users preview proposed and published changes.</li> 
         </ul>
+        <h3>Git Flow</h3>
+        <ol>
+          <li>Navigate to the correct working directory.</li> 
+          <li>Make sure you are in the current main branch. (git checkout main)</li>
+          <li>Pull down the latest main branch. (git pull origin main)</li>
+          <li>Create feature branch to work within (git checkout -b feature/add-name)</li>
+          <li>Confirm branch. (git status)</li>
+          <li>Complete work on the project.</li>
+          <li>Stage your changes. (git add-A)</li>
+          <li>Commit changes to repo. (git commit -m “brief note about commit”)</li>
+          <li>Confirm your current branch is up to date. (git pull origin main)</li>
+          <li>Push up changes. (git push origin feature/add-name)</li>
+          <li>Open repo in GitHub.</li>
+          <li>Navigate to pull requests, click new pull request.</li>
+          <li>Confirm you are comparing main branch and your current feature branch</li>
+          <li>Give PR a title and a short description of changes.</li>
+          <li>Click “Create pull request” button.</li>
+          <li>Click “Merge pull request” button.</li>
+          <li>Navigate to main branch to confirm changes.</li>
+          <li>Update local repo. (git checkout main) (git pull origin main)</li>
+          <li>Close issue for work if applicable.</li>
+        </ol>
       </section>
       
       <section class="card" id="javascript-section">
